@@ -286,6 +286,10 @@ a {
             &:hover {
                 transform: scale(1.1);
             }
+            & img {
+            width: 300px;
+            height: 200px;
+            }
         }
 
         & .works-description {

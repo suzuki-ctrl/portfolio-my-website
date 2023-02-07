@@ -306,6 +306,10 @@ a {
 .work .works-grid .img-scale:hover {
   transform: scale(1.1);
 }
+.work .works-grid .img-scale img {
+  width: 300px;
+  height: 200px;
+}
 .work .works-grid .works-description {
   text-align: left;
   border: solid 1px black;
