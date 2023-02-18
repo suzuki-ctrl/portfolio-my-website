@@ -322,7 +322,6 @@ a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .work .works-grid .works-description .works-title::before {
@@ -342,10 +341,8 @@ a {
 }
 .work .works-grid .works-description .works-accordion.appear {
   display: block;
-  -webkit-animation-name: fadeIn;
-          animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
 }
 .work .btn {
   display: inline-block;
@@ -359,17 +356,6 @@ a {
 .work .btn:hover {
   background-color: #5b5bfa;
   color: #fff;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 @keyframes fadeIn {
@@ -398,31 +384,17 @@ a {
   background-color: #5b5bfa;
   height: 150px;
   width: 150px;
-  -webkit-animation-name: mail-updown;
-          animation-name: mail-updown;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-name: mail-updown;
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
   cursor: pointer;
 }
 #contact .mail-to .mail {
   line-height: 150px;
   font-size: 80px;
   color: white;
-}
-
-@-webkit-keyframes mail-updown {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
 }
 
 @keyframes mail-updown {
@@ -474,7 +446,7 @@ footer p {
 }
 
 .works-boby {
-  background-color: bisque;
+  background-color: rgb(238, 255, 245);
 }
 
 .sec-title2 {
